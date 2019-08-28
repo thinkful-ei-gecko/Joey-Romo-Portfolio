@@ -1,0 +1,67 @@
+html { 
+    box-sizing: border-box; 
+    background-image: url("https://i.imgur.com/1yhOPtc.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  body{
+      margin: 0px;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit;
+    font-family: 'Fjalla One', sans-serif;
+
+  }
+nav{
+    background-color: rgb(37, 34, 34);
+    height:60px;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 50px;
+  }
+li a{
+    color: rgb(192, 171, 52);
+    font-size: 25px;
+    text-decoration: none;
+}
+.homepage-info h1{
+    margin-top: 60px; 
+    color: rgb(172, 153, 46);
+    font-size: 110px;
+    
+    opacity: 0.87;
+}
+.homepage-info h2{
+    margin-top: 70px;
+    color: rgb(172, 153, 46);
+    font-size: 140px;
+    
+    opacity: 0.87;
+}
+.homepage-info h3{
+    color: rgb(172, 153, 46);
+    margin-left: 430px;
+    margin-top: -30px;
+    font-size: 40px;
+    opacity: 0.87;
+}
+
+.homepage-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    justify-content: center;
+    
+}
