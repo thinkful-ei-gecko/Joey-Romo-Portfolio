@@ -18,7 +18,8 @@ html {
 nav{
     background-color: rgb(37, 34, 34);
     height:60px;
-    
+    position: fixed;
+    width: 100%
 }
 nav ul {
     list-style-type: none;
@@ -36,23 +37,21 @@ li a{
     text-decoration: none;
 }
 .homepage-info h1{
-    margin-top: 60px; 
+    margin-top: 210px; 
     color: rgb(172, 153, 46);
     font-size: 110px;
-    
     opacity: 0.87;
 }
 .homepage-info h2{
     margin-top: 70px;
     color: rgb(172, 153, 46);
     font-size: 140px;
-    
     opacity: 0.87;
 }
 .homepage-info h3{
     color: rgb(172, 153, 46);
-    margin-left: 430px;
-    margin-top: -30px;
+    margin-left: 860px;
+    margin-top: -60px;
     font-size: 40px;
     opacity: 0.87;
 }
