@@ -15,9 +15,7 @@ html {
     font-family: 'Fjalla One', sans-serif;
 
   }
-.first-page{
-    
-}
+
 nav{
     background-color: rgb(37, 34, 34);
     height:60px;
@@ -99,6 +97,29 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
+.portfolio-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-app-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-app-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    border: 2px solid black;
+    height: 700px;
+    width: 370px
+}
 @media screen and (min-width: 1024px) {
     html { 
         box-sizing: border-box; 
@@ -141,6 +162,9 @@ a:hover{
     }
     a:hover{
         color: rgb(84, 168, 236);
+    }
+    a:active{
+        color: rgb(123, 86, 161);
     }
     .homepage-info h1{
         margin-top: 210px; 
