@@ -47,21 +47,21 @@ a:hover{
 .homepage-info h1{
     margin-top: 70vw; 
     color: rgb(172, 153, 46);
-    font-size: 12vw;
+    font-size: 10vw;
     opacity: 0.87;
     
 }
 .homepage-info h2{
     margin-top: 20vw;
     color: rgb(172, 153, 46);
-    font-size: 13vw;
+    font-size: 10vw;
     margin-bottom: 30px;
     opacity: 0.87;
     
 }
 .homepage-info h3{
     color: rgb(172, 153, 46);;
-    font-size: 23px;
+    font-size: 4.3vw;
     margin-left: 150px;
     opacity: 0.87;
 }
