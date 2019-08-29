@@ -1,10 +1,10 @@
 html { 
     box-sizing: border-box; 
     background-image: url("https://i.imgur.com/kc3xxlc.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
   }
   body{
       margin: 0px;
@@ -15,6 +15,9 @@ html {
     font-family: 'Fjalla One', sans-serif;
 
   }
+.first-page{
+    
+}
 nav{
     background-color: rgb(37, 34, 34);
     height:60px;
@@ -86,16 +89,24 @@ a:hover{
 .body-section{
     background-color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
+}
+.about-me h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (min-width: 1024px) {
     html { 
         box-sizing: border-box; 
         background-image: url("https://i.imgur.com/1yhOPtc.jpg");
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
       }
       body{
           margin: 0px;
@@ -146,7 +157,6 @@ a:hover{
     .homepage-info h3{
         color: rgb(172, 153, 46);
         margin-left: 860px;
-        
         font-size: 40px;
         opacity: 0.87;
     }
