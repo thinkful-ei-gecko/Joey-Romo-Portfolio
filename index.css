@@ -15,6 +15,9 @@ html {
     font-family: 'Fjalla One', sans-serif;
 
   }
+  .first-page{ 
+      margin-bottom: 200px;
+  }
 
 nav{
     background-color: rgb(37, 34, 34);
@@ -42,16 +45,16 @@ a:hover{
     color: rgb(84, 168, 236);
 }
 .homepage-info h1{
-    margin-top: 50vw; 
+    margin-top: 70vw; 
     color: rgb(172, 153, 46);
     font-size: 12vw;
     opacity: 0.87;
     
 }
 .homepage-info h2{
-    margin-top: 15vw;
+    margin-top: 20vw;
     color: rgb(172, 153, 46);
-    font-size: 14vw;
+    font-size: 13vw;
     margin-bottom: 30px;
     opacity: 0.87;
     
@@ -74,16 +77,16 @@ a:hover{
 }
 .scroll-reminder{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    padding-bottom: 100px;
-
+    
+    height: 100px;
+    padding-bottom: 0px;
+    
 }
 .scroll-reminder h4{
-    margin-top: 150px;
+    margin-top: 200px;
+    font-size: 20px;
     color:  rgb(172, 153, 46);
-    opacity: 0.87;
+    opacity: 0.77;
 }
 .body-section{
     background-color: white;
@@ -179,15 +182,14 @@ iframe{
     font-size: 25px;
 }
 
+
+
 @media screen and (min-width: 1024px) {
     html { 
         box-sizing: border-box; 
-        background-image: url("https://i.imgur.com/1yhOPtc.jpg");
-      -webkit-background-size: contain;
-      -moz-background-size: contain;
-      -o-background-size: contain;
-      background-size: contain;
+        
       }
+
       body{
           margin: 0px;
       }
@@ -197,6 +199,14 @@ iframe{
         font-family: 'Fjalla One', sans-serif;
     
       }
+    .first-page{
+        background-image: url("https://i.imgur.com/1yhOPtc.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-bottom: 0px;
+    }
     nav{
         background-color: rgb(37, 34, 34);
         height:60px;
@@ -225,14 +235,17 @@ iframe{
     a:active{
         color: rgb(123, 86, 161);
     }
+    .homepage-info{
+        height: 600px;
+    }
     .homepage-info h1{
-        margin-top: 210px; 
+        margin-top: 0vh; 
         color: rgb(172, 153, 46);
         font-size: 110px;
         opacity: 0.87;
     }
     .homepage-info h2{
-        margin-top: 70px;
+        margin-top: 0vh;
         color: rgb(172, 153, 46);
         font-size: 140px;
         opacity: 0.87;
@@ -242,6 +255,7 @@ iframe{
         margin-left: 860px;
         font-size: 40px;
         opacity: 0.87;
+        margin-bottom: 0px;
     }
     
     .homepage-info{
@@ -253,16 +267,16 @@ iframe{
         
     }
     .scroll-reminder h4{
+        margin-top: 0px;
         font-size: 20px;
         color:  rgb(172, 153, 46);
         opacity: 0.77;
     }
     .scroll-reminder{
         display: flex;
-        align-items: flex-end;
-        justify-content: center;
+        margin-top: -8px;
         height: 100px;
         padding-bottom: 0px;
-    
+        
     }
 }
