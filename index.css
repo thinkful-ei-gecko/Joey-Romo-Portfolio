@@ -140,6 +140,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     font-family: 'Lora', serif;
+    
 }
 .about-me p{
     margin-top: 40px;
@@ -156,6 +157,14 @@ a:hover{
     margin-left: 10px;
     margin-right: 10px;
 }
+#portfolio{
+    background-image: url("https://i.imgur.com/NcJCuNu.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    scroll-behavior: smooth;
+}
 .portfolio-body{
     display: flex;
     flex-direction: column;
@@ -165,9 +174,12 @@ a:hover{
 }
 #portfolio h3{
     font-family: 'Lora', serif;
+    color: rgb(250, 243, 217);
+    
 }
 .portfolio-body h4{
     font-family: 'Lora', serif;
+    color: rgb(250, 243, 217)
 }
 .quiz-app-main{
     display: flex;
@@ -183,7 +195,7 @@ a:hover{
     justify-content: center;
 }
 iframe{
-    border: 2px solid black;
+    border: 1px solid rgb(250, 243, 217);
     height: 700px;
     width: 370px
 }
@@ -200,17 +212,18 @@ iframe{
         padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
-        border: 1px solid black;
+        border: 1px solid rgb(250, 243, 217);
         margin-left: 50px;
         margin-right: 50px;
         font-family: 'Lora', serif;
+        color: rgb(250, 243, 217)
 }
 .quiz-app-body a:hover{
     animation-name: hover-transition1;
     animation-duration: 4s;
 }
 .bookmark-app-main{
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(250, 243, 217);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,10 +251,11 @@ iframe{
         padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
-        border: 1px solid black;
+        border: 1px solid rgb(250, 243, 217);
         margin-left: 50px;
         margin-right: 50px;
         font-family: 'Lora', serif;
+        color: rgb(250, 243, 217)
 }
 .bookmark-app-body a:hover{
     animation-name: hover-transition1;
@@ -409,11 +423,20 @@ iframe{
         margin-left: 150px;
         margin-right: 150px;
     }
+    #portfolio{
+        background-image: url("https://i.imgur.com/bxKRtsR.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-bottom: 0px;
+    }
     .quiz-app-main{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        color: rgb(250, 243, 217);
         
     }
     .quiz-app-body{
@@ -423,7 +446,7 @@ iframe{
         justify-content: center;
     }
     iframe{
-        border: 2px solid black;
+        border: 2px solid rgb(250, 243, 217);
         height: 700px;
         width: 370px
     }
@@ -440,10 +463,11 @@ iframe{
             padding-left: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
-            border: 1px solid black;
+            border: 1px solid rgb(250, 243, 217);
             margin-left: 130px;
             margin-right: 130px;
             font-family: 'Lora', serif;
+            color: rgb(250, 243, 217);
     }
     .quiz-app-body a:hover{
         animation-name: hover-transition1;
@@ -455,6 +479,7 @@ iframe{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        color: rgb(250, 243, 217);
         
     }
     .bookmark-app-body{
@@ -478,10 +503,11 @@ iframe{
             padding-left: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
-            border: 1px solid black;
+            border: 1px solid rgb(250, 243, 217);
             margin-left: 130px;
             margin-right: 130px;
             font-family: 'Lora', serif;
+            color: rgb(250, 243, 217);
     }
     .bookmark-app-body a:hover{
         animation-name: hover-transition1;
