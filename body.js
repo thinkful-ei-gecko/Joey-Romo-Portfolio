@@ -2,7 +2,7 @@ const body = function(){
 
 
   const render = function(){
-    return  `<div class="first-page">
+    return  `<div class="first-page" #firstpage>
     <nav>
       <ul>
         <li><a href="#bio" class="bio">BIO</a></li>
@@ -15,7 +15,7 @@ const body = function(){
         <h1> Joey Romo </h1>
         <h2>{ Web Developer }</h2>
         <h3>...In Training</h3>
-        <div class="scroll-reminder"><h4>SCROLL DOWN</h4></div>
+        <a href="#bio" class="scroll-reminder"><h4>SCROLL DOWN</h4></a>
           
   </div>
       </div>
@@ -33,13 +33,29 @@ const body = function(){
                   ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
                   sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                  deserunt mollit anim id est laborum.</p>
+                  deserunt mollit anim id est laborum. 
+                  Eleifend mi in nulla posuere. Eros in cursus turpis massa. Porttitor lacus luctus accumsan tortor posuere ac.
+                  Lorem ipsum dolor sit amet consectetur. Cras ornare arcu dui vivamus arcu felis bibendum ut. 
+                  Consectetur libero id faucibus nisl tincidunt eget nullam non nisi. Velit scelerisque in dictum non consectetur. 
+                  Tristique nulla aliquet enim tortor at auctor urna. Egestas purus viverra accumsan in nisl nisi. 
+                  Pellentesque dignissim enim sit amet venenatis urna cursus. Gravida arcu ac tortor dignissim convallis aenean et. 
+                  Viverra vitae congue eu consequat. Enim nulla aliquet porttitor lacus luctus accumsan. 
+                  Commodo elit at imperdiet dui accumsan sit amet nulla. Nisi scelerisque eu ultrices vitae auctor. 
+                  Dictumst quisque sagittis purus sit. Ullamcorper morbi tincidunt ornare massa eget egestas.
+
+                  Arcu cursus euismod quis viverra nibh cras. Ultrices dui sapien eget mi proin sed libero. Ut enim blandit volutpat maecenas volutpat blandit. 
+                  Ac odio tempor orci dapibus ultrices in iaculis nunc. Sit amet purus gravida quis blandit turpis. 
+                  Semper feugiat nibh sed pulvinar proin. Vitae semper quis lectus nulla at volutpat diam. 
+                  Tincidunt arcu non sodales neque sodales ut. Varius sit amet mattis vulputate enim. 
+                  Faucibus purus in massa tempor nec feugiat nisl pretium. 
+                  Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Sed sed risus pretium quam.
+                  </p>
               </section>
             </div>
                   
         </section>
         <section class="body-section" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>PORTFOLIO</h1>
           <div class="portfolio-body">
               <h3>Here's my Projects so far</h3>
              <section class="quiz-app-main"> 
@@ -53,6 +69,7 @@ const body = function(){
                     src="https://thinkful-ei-gecko.github.io/kevin-joey-quiz-app/">
                 </iframe>
                 <h5><a href="https://thinkful-ei-gecko.github.io/kevin-joey-quiz-app/">click here to view project</a></h5>
+                <h5><a href="https://thinkful-ei-gecko.github.io/kevin-joey-quiz-app/">click here to view repo</a></h5>
                </div>
 
             
@@ -71,7 +88,8 @@ const body = function(){
         </section>
 
         
-</div> `;
+</div> 
+`;
   };
   const appendBody = function(){
     $('body').append(render());
