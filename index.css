@@ -1,4 +1,7 @@
-
+@keyframes hover-transition{
+    from {color:#FFE999;}
+  to {color:#B39B47;}
+}
 html { 
     box-sizing: border-box; 
     background-image: url("https://i.imgur.com/kc3xxlc.jpg");
@@ -6,6 +9,7 @@ html {
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
+    scroll-behavior: smooth;
   }
   body{
       margin: 0px;
@@ -44,7 +48,8 @@ li a{
 
 }
 a:hover{
-    color: #9ECFFF;
+    animation-name: hover-transition;
+    animation-duration: 4s;
 }
 .homepage-info h1{
     margin-top: 57vw; 
