@@ -112,7 +112,7 @@ a:hover{
     
 }
 .body-section{
-    background-color: white;
+    background-color: rgb(250, 243, 217);
     display: flex;
     flex-direction: column;
     justify-content: center;
