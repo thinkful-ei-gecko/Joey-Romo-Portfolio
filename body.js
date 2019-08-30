@@ -26,7 +26,7 @@ const body = function(){
             <h1>BIO</h1>
             <div class=bio-body>
               <section class="about-me">
-                <h3>ABOUT ME</h3>
+                <h3>About Me</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
@@ -39,11 +39,11 @@ const body = function(){
                   
         </section>
         <section class="body-section" id="portfolio">
-            <h1>PORTFOLIO</h1>
+            <h1>Portfolio</h1>
           <div class="portfolio-body">
-              <h3>HERE'S MY PROJECTS SO FAR</h3>
+              <h3>Here's my Projects so far</h3>
              <section class="quiz-app-main"> 
-               <h4>QUIZ APP</h4>
+               <h4>Quiz App</h4>
                <div class="quiz-app-body">
                 <p>
                   Here's the first web app I've ever worked on. It was a joint project with Kevin Wei. This project uses HTML, CSS, Javascript, and Jquery to build a quiz based on Dungeons & Dragons to test the user on their D&D knowledge. Try it out below or click the link to open it!

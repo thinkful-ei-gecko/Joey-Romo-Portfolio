@@ -118,6 +118,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     
+    
 }
 .body-section h1{
     margin-top: 0px;
@@ -134,6 +135,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Lora', serif;
 }
 .about-me p{
     margin-top: 40px;
@@ -143,6 +145,7 @@ a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid black;
+    font-family: 'Lora', serif;
 }
 .about-me{
     
@@ -154,12 +157,20 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+.portfolio-body h3{
+    font-family: 'Lora', serif;
+}
+.portfolio-body h4{
+    font-family: 'Lora', serif;
 }
 .quiz-app-main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .quiz-app-body{
     display: flex;
@@ -188,6 +199,7 @@ iframe{
         border: 1px solid black;
         margin-left: 50px;
         margin-right: 50px;
+        font-family: 'Lora', serif;
 }
 .quiz-app-body a:hover{
     color: #9ECFFF;
@@ -203,6 +215,9 @@ iframe{
     margin-left: 10px;
     margin-right: 10px;
 }
+.contact-body p{
+        font-family: 'Lora', serif;
+}
 #contact-info-list{
     list-style-type: none;
     border: 1px solid black;
@@ -211,10 +226,12 @@ iframe{
     margin-top: 40px;
     margin-bottom: 30px;
     font-size: 25px;
+   
     
 }
 #contact-info-list a{
     color:#B39B47;
+    
 }
 
 
