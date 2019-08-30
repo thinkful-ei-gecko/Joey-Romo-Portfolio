@@ -7,8 +7,8 @@ const body = function(){
       <ul>
         <li><a href="#bio" class="bio">BIO</a></li>
         <li><a href="#portfolio" class="portfolio">PORTFOLIO</a></li>
-        <li><a href="https://github.com/joeyjr95">GITHUB</a></li>
         <li><a href="#contact" class="contact">CONTACT</a></li>
+        <li><a href="https://github.com/joeyjr95">GITHUB</a></li>
       </ul>
     </nav> 
       <div class="homepage-info">
