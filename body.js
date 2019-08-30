@@ -2,7 +2,7 @@ const body = function(){
 
 
   const render = function(){
-    return  `<div class="first-page" #firstpage>
+    return  `<div class="first-page" id="firstpage">
     <nav>
       <ul>
         <li><a href="#bio" class="bio">BIO</a></li>
@@ -84,6 +84,7 @@ const body = function(){
                 <li >EMAIL: <a HREF="mailto:joeyjr95@gmail.com">  joeyjr95@gmail.com</a></li>
                 <li>MOBILE: <a href="tel:+17036080673">  703-608-0673</a></li>
               </ul>
+              <h5><a href="#firstpage">scroll up</a></h5>
             </div>  
         </section>
 

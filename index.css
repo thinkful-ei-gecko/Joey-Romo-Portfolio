@@ -221,7 +221,27 @@ iframe{
     margin-right: 10px;
 }
 .contact-body p{
-        font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
+}
+.contact-body h5{
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+    
+}
+.contact-body h5 a{
+    text-decoration: none;
+    color:#B39B47;
+    
+}
+.contact-body h5 a:hover{
+    animation-name: hover-transition1;
+    animation-duration: 4s;
 }
 #contact-info-list{
     list-style-type: none;
