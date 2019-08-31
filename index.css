@@ -7,8 +7,8 @@
   to {color:#B39B47;}
 }
 @keyframes load-transition{
-    from {color:#B39B47;}
-  to {color:#FFE999;}
+    from {color:#FFE999;}
+  to {color:#B39B47;}
 
 }
 
@@ -63,32 +63,32 @@ a:hover{
 }
 .homepage-info h1{
     margin-top: 40vw; 
-    color:#FFE999;
+    color:#B39B47;
     font-size: 10vw;
     font-family: 'Amatic SC', cursive;
     animation-name: load-transition;
-    animation-duration: 6s;
+    animation-duration: 9s;
 
     
 }
 .homepage-info h2{
     margin-top: 20vw;
-    color:#FFE999;
+    color:#B39B47;
     font-size: 10vw;
     margin-bottom: 30px;
     font-family: 'Amatic SC', cursive;
     animation-name: load-transition;
-    animation-duration: 8s;
+    animation-duration: 9s;
     
     
 }
 .homepage-info h3{
-    color:#FFE999;
+    color:#B39B47;
     font-size: 4.3vw;
     margin-left: 150px;
     font-family: 'Amatic SC', cursive;
     animation-name: load-transition;
-    animation-duration: 8s;
+    animation-duration: 9s;
 }
 
 .homepage-info{
@@ -112,7 +112,7 @@ a:hover{
     animation-duration: 4s;
 }
 .scroll-reminder h4{
-    margin-top: 70px;
+    margin-top: 105px;
     font-size: 13px;
     color:#B39B47;
 }
@@ -365,7 +365,7 @@ iframe{
     }
     .homepage-info h1{
         margin-top: 57vw; 
-        color:#FFE999;
+        color:#B39B47;
         font-size: 10vw;
         font-family: 'Amatic SC', cursive;
         animation-name: load-transition;
@@ -375,22 +375,22 @@ iframe{
     }
     .homepage-info h2{
         margin-top: 20vw;
-        color:#FFE999;
+        color:#B39B47;
         font-size: 10vw;
         margin-bottom: 30px;
         font-family: 'Amatic SC', cursive;
         animation-name: load-transition;
-        animation-duration: 8s;
+        animation-duration: 9s;
         
         
     }
     .homepage-info h3{
-        color:#FFE999;
+        color:#B39B47;
         font-size: 4.3vw;
         margin-left: 150px;
         font-family: 'Amatic SC', cursive;
         animation-name: load-transition;
-        animation-duration: 8s;
+        animation-duration: 9s;
     }
 
     .homepage-info{
