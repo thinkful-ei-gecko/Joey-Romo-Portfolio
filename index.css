@@ -11,6 +11,7 @@
   to {color:#FFE999;}
 
 }
+
 html { 
     box-sizing: border-box; 
     background-image: url("https://i.imgur.com/kc3xxlc.jpg");
@@ -19,19 +20,19 @@ html {
     -o-background-size: contain;
     background-size: contain;
     scroll-behavior: smooth;
-  }
-  body{
-      margin: 0px;
-  }
-  
-  *, *:before, *:after { 
+}
+body{
+    margin: 0px;
+}
+
+*, *:before, *:after { 
     box-sizing: inherit;
     font-family: 'Fjalla One', sans-serif;
 
-  }
-  .first-page{ 
-      margin-bottom: 200px;
-  }
+}
+.first-page{ 
+    margin-bottom: 90px;
+}
 
 nav{
     background-color: rgb(37, 34, 34);
@@ -48,12 +49,12 @@ nav ul {
     justify-content: space-around;
     align-items: flex-end;
     height: 50px;
-  }
+}
 li a{
     color:#B39B47;
     font-size:25px;
     text-decoration: none;
-   
+
 
 }
 a:hover{
@@ -61,13 +62,13 @@ a:hover{
     animation-duration: 4s;
 }
 .homepage-info h1{
-    margin-top: 57vw; 
+    margin-top: 40vw; 
     color:#FFE999;
     font-size: 10vw;
     font-family: 'Amatic SC', cursive;
     animation-name: load-transition;
     animation-duration: 6s;
-   
+
     
 }
 .homepage-info h2{
@@ -111,8 +112,8 @@ a:hover{
     animation-duration: 4s;
 }
 .scroll-reminder h4{
-    margin-top: 200px;
-    font-size: 20px;
+    margin-top: 70px;
+    font-size: 13px;
     color:#B39B47;
 }
 .body-section{
@@ -133,7 +134,7 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 .about-me h3{
     display: flex;
@@ -196,14 +197,14 @@ a:hover{
 }
 iframe{
     border: 1px solid rgb(250, 243, 217);
-    height: 700px;
-    width: 370px
+    height: 600px;
+    width: 320px
 }
 .quiz-app-body a{
     color:#B39B47;
     font-size:20px;
     text-decoration: none;
-   
+
 }
 .quiz-app-body p{
     margin-top: 5px;
@@ -242,7 +243,7 @@ iframe{
     color:#B39B47;
     font-size:20px;
     text-decoration: none;
-   
+
 }
 .bookmark-app-body p{
     margin-top: 5px;
@@ -258,7 +259,7 @@ iframe{
         color: rgb(250, 243, 217)
 }
 .bookmark-app-body a:hover{
-    animation-name: hover-transition1;
+    animation-name: hover-transition;
     animation-duration: 4s;
 }
 #contact {
@@ -292,7 +293,7 @@ iframe{
     
 }
 .contact-body h5 a:hover{
-    animation-name: hover-transition1;
+    animation-name: hover-transition;
     animation-duration: 4s;
 }
 #contact-info-list{
@@ -303,14 +304,323 @@ iframe{
     margin-top: 40px;
     margin-bottom: 30px;
     font-size: 25px;
-   
-    
-}
-#contact-info-list a{
-    color:#B39B47;
+
     
 }
 
+
+#contact-info-list h5{
+    font-size: 13px;
+}
+
+@media screen and (min-width: 370px){
+    html { 
+        box-sizing: border-box; 
+        background-image: url("https://i.imgur.com/kc3xxlc.jpg");
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0px;
+    }
+    
+    *, *:before, *:after { 
+        box-sizing: inherit;
+        font-family: 'Fjalla One', sans-serif;
+
+    }
+    .first-page{ 
+        margin-bottom: 200px;
+    }
+
+    nav{
+        background-color: rgb(37, 34, 34);
+        height:60px;
+        position: fixed;
+        width: 100%
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        height: 50px;
+    }
+    li a{
+        color:#B39B47;
+        font-size:25px;
+        text-decoration: none;
+    
+
+    }
+    a:hover{
+        animation-name: hover-transition;
+        animation-duration: 4s;
+    }
+    .homepage-info h1{
+        margin-top: 57vw; 
+        color:#FFE999;
+        font-size: 10vw;
+        font-family: 'Amatic SC', cursive;
+        animation-name: load-transition;
+        animation-duration: 6s;
+    
+        
+    }
+    .homepage-info h2{
+        margin-top: 20vw;
+        color:#FFE999;
+        font-size: 10vw;
+        margin-bottom: 30px;
+        font-family: 'Amatic SC', cursive;
+        animation-name: load-transition;
+        animation-duration: 8s;
+        
+        
+    }
+    .homepage-info h3{
+        color:#FFE999;
+        font-size: 4.3vw;
+        margin-left: 150px;
+        font-family: 'Amatic SC', cursive;
+        animation-name: load-transition;
+        animation-duration: 8s;
+    }
+
+    .homepage-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        justify-content: center;
+        
+        
+    }
+    .scroll-reminder{
+        display: flex;
+        text-decoration: none;
+        height: 100px;
+        padding-bottom: 0px;
+        
+    }
+    .scroll-reminder h4:hover{
+        animation-name: hover-transition;
+        animation-duration: 4s;
+    }
+    .scroll-reminder h4{
+        margin-top: 200px;
+        font-size: 20px;
+        color:#B39B47;
+    }
+    .body-section{
+        background-color: rgb(250, 243, 217);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .body-section h1{
+        margin-top: 0px;
+        width: 100%;
+        color:#B39B47;
+        background-color:  rgb(37, 34, 34);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .about-me h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Lora', serif;
+        
+    }
+    .about-me p{
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+        font-family: 'Lora', serif;
+    }
+    .about-me{
+        
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #portfolio{
+        background-image: url("https://i.imgur.com/NcJCuNu.jpg");
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        scroll-behavior: smooth;
+    }
+    .portfolio-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #portfolio h3{
+        font-family: 'Lora', serif;
+        color: rgb(250, 243, 217);
+        
+    }
+    .portfolio-body h4{
+        font-family: 'Lora', serif;
+        color: rgb(250, 243, 217)
+    }
+    .quiz-app-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .quiz-app-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    iframe{
+        border: 1px solid rgb(250, 243, 217);
+        height: 700px;
+        width: 370px
+    }
+    .quiz-app-body a{
+        color:#B39B47;
+        font-size:20px;
+        text-decoration: none;
+    
+    }
+    .quiz-app-body p{
+        margin-top: 5px;
+            margin-bottom: 30px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 1px solid rgb(250, 243, 217);
+            margin-left: 50px;
+            margin-right: 50px;
+            font-family: 'Lora', serif;
+            color: rgb(250, 243, 217)
+    }
+    .quiz-app-body a:hover{
+        animation-name: hover-transition1;
+        animation-duration: 4s;
+    }
+    .bookmark-app-main{
+        border-top: 1px solid rgb(250, 243, 217);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .bookmark-app-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .bookmark-app-body a{
+        color:#B39B47;
+        font-size:20px;
+        text-decoration: none;
+    
+    }
+    .bookmark-app-body p{
+        margin-top: 5px;
+            margin-bottom: 30px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 1px solid rgb(250, 243, 217);
+            margin-left: 50px;
+            margin-right: 50px;
+            font-family: 'Lora', serif;
+            color: rgb(250, 243, 217)
+    }
+    .bookmark-app-body a:hover{
+        animation-name: hover-transition;
+        animation-duration: 4s;
+    }
+    #contact {
+        width: 100%
+    }
+    #contact h1{
+        width: 100%;
+        height: 30px;
+    }
+    .contact-body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contact-body p{
+        font-family: 'Lora', serif;
+    }
+    .contact-body h5{
+        font-size:20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        
+        
+    }
+    .contact-body h5 a{
+        text-decoration: none;
+        color:#B39B47;
+        
+    }
+    .contact-body h5 a:hover{
+        animation-name: hover-transition;
+        animation-duration: 4s;
+    }
+    #contact-info-list{
+        list-style-type: none;
+        border: 1px solid black;
+    }
+    #contact-info-list li{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    
+        
+    }
+    #contact-info-list a{
+        color:#B39B47;
+        
+    }
+
+}
+@media screen and (min-width: 750px){
+    .first-page{ 
+        margin-bottom: 430px;
+    }
+    
+}
 
 
 @media screen and (min-width: 1024px) {
@@ -470,7 +780,7 @@ iframe{
             color: rgb(250, 243, 217);
     }
     .quiz-app-body a:hover{
-        animation-name: hover-transition1;
+        animation-name: hover-transition;
         animation-duration: 4s;
     }
     .bookmark-app-main{
@@ -510,7 +820,7 @@ iframe{
             color: rgb(250, 243, 217);
     }
     .bookmark-app-body a:hover{
-        animation-name: hover-transition1;
+        animation-name: hover-transition;
         animation-duration: 4s;
     }
     .portfolio-body{
@@ -520,6 +830,65 @@ iframe{
         justify-content: center;
         
     }
+}
+@media screen and (min-width: 1600px) {
+    html{
+        background-image: url("https://i.imgur.com/MVtCH7a.jpg");
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    .first-page{ 
+        background-image: none;
+        
+        margin-bottom: 250px;
+
+    }
+    .homepage-info{
+        height: 600px;
+    }
+    .homepage-info h1{
+        margin-top: 40vh; 
+        font-size: 60px;
+        font-weight: 100;
+    }
+    .homepage-info h2{
+        margin-top: 0vh;
+        font-size: 90px;
+        margin-bottom: 0px;
+        font-weight: 100;
+        
+    }
+    .homepage-info h3{
+       
+        margin-left: 860px;
+        font-size: 30px;
+        font-weight: 100;
+        margin-bottom: 0px;
+    }
+    
+    .homepage-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 750px;
+        justify-content: center;
+        
+    }
+    .scroll-reminder h4{
+        margin-top: 290px;
+        font-size: 15px;
+        
+        
+    }
+    .scroll-reminder{
+        display: flex;
+        height: 100px;
+        padding-bottom: 0px;
+        
+    }
+
 }
 
 
