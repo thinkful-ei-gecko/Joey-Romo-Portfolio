@@ -297,7 +297,7 @@ iframe{
     
 }
 .contact-body h5 a:hover{
-    animation-name: hover-transition;
+    animation-name: hover-transition1;
     animation-duration: 4s;
 }
 #contact-info-list{
@@ -599,7 +599,7 @@ iframe{
         
     }
     .contact-body h5 a:hover{
-        animation-name: hover-transition;
+        animation-name: hover-transition1;
         animation-duration: 4s;
     }
     #contact-info-list{
