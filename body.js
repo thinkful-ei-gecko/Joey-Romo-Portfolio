@@ -2,7 +2,7 @@ const body = function(){
 
 
   const render = function(){
-    return  `      <div class="first-page" id="firstpage">
+    return  `<div class="first-page" id="firstpage">
     <nav>
       <ul>
         <li><a href="#bio" class="bio">BIO</a></li>
