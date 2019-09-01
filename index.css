@@ -159,6 +159,7 @@ a:hover{
     margin-right: 10px;
 }
 .about-me-essay p{
+    text-indent: 20pt;
     font-family: 'Lora', serif;
 }
 #portfolio{
