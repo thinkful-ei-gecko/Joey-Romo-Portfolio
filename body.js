@@ -63,7 +63,7 @@ const body = function(){
               <h4>Bookmark App</h4>
               <div class="bookmark-app-body">
                <p>
-                 Here's the first solo web app I've ever worked on. This project is a bookmark app created to save websites and rate them all on one page. This app uses HTML, CSS, jQuery, and Thinkful's bookmark API in order to run. The point of this project was to get used to using API's. Try it out below or click the link to open it!                  
+                 Here's the first solo web app I've ever worked on. This project is a bookmark app created to save websites and rate them all on one page. This app uses HTML, CSS, jQuery, and Thinkful's bookmark API in order to run. The point of this project was to get used to using API's.                  
                 </p>
                <iframe id="bookmark-app-iframe"
                    title="bookmark app"
