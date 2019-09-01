@@ -224,7 +224,7 @@ iframe{
         color: rgb(250, 243, 217)
 }
 .quiz-app-body a:hover{
-    animation-name: hover-transition1;
+    animation-name: hover-transition;
     animation-duration: 4s;
 }
 .bookmark-app-main{
@@ -526,7 +526,7 @@ iframe{
             color: rgb(250, 243, 217)
     }
     .quiz-app-body a:hover{
-        animation-name: hover-transition1;
+        animation-name: hover-transition;
         animation-duration: 4s;
     }
     .bookmark-app-main{
