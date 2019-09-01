@@ -336,7 +336,7 @@ iframe{
 
     }
     .first-page{ 
-        margin-bottom: 200px;
+        margin-bottom: 210px;
     }
 
     nav{
@@ -418,7 +418,7 @@ iframe{
     }
     .scroll-reminder h4{
         margin-top: 200px;
-        font-size: 20px;
+        font-size: 17px;
         color:#B39B47;
     }
     .body-section{
@@ -621,6 +621,17 @@ iframe{
 @media screen and (min-width: 750px){
     .first-page{ 
         margin-bottom: 430px;
+    }
+    .homepage-info h1{
+        margin-top: 80vw; 
+    }
+    .homepage-info h2{
+        margin-top: 9vw;
+    }
+    .about-me{
+      
+        margin-left: 180px;
+        margin-right: 180px;
     }
     
 }
