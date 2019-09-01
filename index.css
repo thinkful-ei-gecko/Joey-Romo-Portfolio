@@ -11,6 +11,51 @@
   to {color:#B39B47;}
 
 }
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
 
 html { 
     box-sizing: border-box; 
@@ -20,6 +65,7 @@ html {
     -o-background-size: contain;
     background-size: contain;
     scroll-behavior: smooth;
+    
 }
 body{
     margin: 0px;
@@ -61,13 +107,23 @@ a:hover{
     animation-name: hover-transition;
     animation-duration: 4s;
 }
+.homepage-info{
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+    
+}
 .homepage-info h1{
-    margin-top: 40vw; 
+    margin-top: 5vw; 
     color:#B39B47;
     font-size: 10vw;
     font-family: 'Amatic SC', cursive;
+    
     animation-name: load-transition;
-    animation-duration: 9s;
+    animation-duration: 20s;
+    
 
     
 }
@@ -78,7 +134,7 @@ a:hover{
     margin-bottom: 30px;
     font-family: 'Amatic SC', cursive;
     animation-name: load-transition;
-    animation-duration: 9s;
+    animation-duration: 20s;
     
     
 }
@@ -88,7 +144,7 @@ a:hover{
     margin-left: 150px;
     font-family: 'Amatic SC', cursive;
     animation-name: load-transition;
-    animation-duration: 9s;
+    animation-duration: 20s;
 }
 
 .homepage-info{
@@ -102,9 +158,12 @@ a:hover{
 }
 .scroll-reminder{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    height: 100px;
-    padding-bottom: 0px;
+    height: 0px;
+    margin-bottom: 0px;
     
 }
 .scroll-reminder h4:hover{
@@ -112,7 +171,8 @@ a:hover{
     animation-duration: 4s;
 }
 .scroll-reminder h4{
-    margin-top: 105px;
+    margin-top: 0px;
+    margin-bottom: 100px;
     font-size: 13px;
     color:#B39B47;
 }
@@ -373,7 +433,7 @@ iframe{
         font-size: 10vw;
         font-family: 'Amatic SC', cursive;
         animation-name: load-transition;
-        animation-duration: 6s;
+        animation-duration: 20s;
     
         
     }
@@ -384,7 +444,7 @@ iframe{
         margin-bottom: 30px;
         font-family: 'Amatic SC', cursive;
         animation-name: load-transition;
-        animation-duration: 9s;
+        animation-duration: 20s;
         
         
     }
@@ -394,7 +454,7 @@ iframe{
         margin-left: 150px;
         font-family: 'Amatic SC', cursive;
         animation-name: load-transition;
-        animation-duration: 9s;
+        animation-duration: 20s;
     }
 
     .homepage-info{
@@ -409,7 +469,7 @@ iframe{
     .scroll-reminder{
         display: flex;
         text-decoration: none;
-        height: 100px;
+        
         padding-bottom: 0px;
         
     }
@@ -418,7 +478,7 @@ iframe{
         animation-duration: 4s;
     }
     .scroll-reminder h4{
-        margin-top: 200px;
+        margin-top: 300px;
         font-size: 17px;
         color:#B39B47;
     }
@@ -632,10 +692,13 @@ iframe{
         margin-bottom: 430px;
     }
     .homepage-info h1{
-        margin-top: 80vw; 
+        margin-top: 65vw; 
     }
     .homepage-info h2{
         margin-top: 9vw;
+    }
+    .scroll-reminder h4{
+        margin-top: 800px;
     }
     .about-me{
       
@@ -653,10 +716,13 @@ iframe{
         margin-bottom: 850px;
     }
     .homepage-info h1{
-        margin-top: 90vw; 
+        margin-top: 80vw; 
     }
     .homepage-info h2{
         margin-top: 9vw;
+    }
+    .scroll-reminder h4{
+        margin-top: 1480px;
     }
     .about-me{
         margin-top: 100px;
@@ -745,15 +811,16 @@ iframe{
         
     }
     .scroll-reminder h4{
-        margin-top: 170px;
+        margin-bottom: 900px;
         font-size: 15px;
+        
         
         
     }
     .scroll-reminder{
         display: flex;
-        height: 100px;
-        padding-bottom: 0px;
+       
+        padding-bottom: 20px;
         
     }
     .about-me h3{
@@ -894,7 +961,7 @@ iframe{
         height: 600px;
     }
     .homepage-info h1{
-        margin-top: 40vh; 
+        margin-top: 33vh; 
         font-size: 60px;
         font-weight: 100;
     }
@@ -922,7 +989,7 @@ iframe{
         
     }
     .scroll-reminder h4{
-        margin-top: 290px;
+        margin-top: 1270px;
         font-size: 15px;
         
         

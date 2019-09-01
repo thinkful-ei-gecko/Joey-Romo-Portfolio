@@ -15,9 +15,10 @@ const body = function(){
         <h1> Joey Romo </h1>
         <h2>{ Web Developer }</h2>
         <h3>...In Training</h3>
-        <a href="#bio" class="scroll-reminder"><h4>SCROLL DOWN</h4></a>
+        
           
   </div>
+  <a href="#bio" class="scroll-reminder"><h4>SCROLL DOWN</h4></a>
       </div>
 
     
