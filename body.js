@@ -27,22 +27,7 @@ const body = function(){
             <div class=bio-body>
               <section class="about-me">
                 <h3>About Me</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                  sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                  deserunt mollit anim id est laborum. 
-                  Eleifend mi in nulla posuere. Eros in cursus turpis massa. Porttitor lacus luctus accumsan tortor posuere ac.
-                  Lorem ipsum dolor sit amet consectetur. Cras ornare arcu dui vivamus arcu felis bibendum ut. 
-                  Consectetur libero id faucibus nisl tincidunt eget nullam non nisi. Velit scelerisque in dictum non consectetur. 
-                  Tristique nulla aliquet enim tortor at auctor urna. Egestas purus viverra accumsan in nisl nisi. 
-                  Pellentesque dignissim enim sit amet venenatis urna cursus. Gravida arcu ac tortor dignissim convallis aenean et. 
-                  Viverra vitae congue eu consequat. Enim nulla aliquet porttitor lacus luctus accumsan. 
-                  Commodo elit at imperdiet dui accumsan sit amet nulla. Nisi scelerisque eu ultrices vitae auctor. 
-                  Dictumst quisque sagittis purus sit. Ullamcorper morbi tincidunt ornare massa eget egestas.
-
+                <p>Currently I am a 23 year old Full-Stack web development student at Thinkful from Washington DC. As a developer in training, I love learning different code everyday and eventually putting it together to make projects. I have an inescapable attention to detail, which sometimes means spending more time than I should adjusting pixels in CSS. I enjoy building and designing things, which brought me to Thinkful and programming in general. Before I started my dive into programming I was a business administration student at Flagler College, but realized business administration wasn’t for me. Besides being a student, I’ve been a dairy farmer in New Zealand, tradie in Australia, and a valet in DC. Besides programming, I enjoy hiking, photography, binging Twin Peaks on Netflix, watching the Washington Wizards disappoint me every year,  and cheap beer.
                   </p>
               </section>
             </div>
