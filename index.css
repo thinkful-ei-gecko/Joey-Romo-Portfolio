@@ -658,6 +658,12 @@ iframe{
     .homepage-info h2{
         margin-top: 9vw;
     }
+    .about-me{
+        margin-top: 100px;
+        margin-bottom: 140px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
 }
 
 
