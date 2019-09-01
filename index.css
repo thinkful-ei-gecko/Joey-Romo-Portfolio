@@ -143,7 +143,7 @@ a:hover{
     font-family: 'Lora', serif;
     
 }
-.about-me p{
+.about-me-essay{
     margin-top: 40px;
     margin-bottom: 60px;
     padding-right: 10px;
@@ -157,6 +157,9 @@ a:hover{
     
     margin-left: 10px;
     margin-right: 10px;
+}
+.about-me-essay p{
+    font-family: 'Lora', serif;
 }
 #portfolio{
     background-image: url("https://i.imgur.com/NcJCuNu.jpg");
@@ -445,7 +448,7 @@ iframe{
         font-family: 'Lora', serif;
         
     }
-    .about-me p{
+    .about-me-essay{
         margin-top: 40px;
         margin-bottom: 60px;
         padding-right: 10px;
@@ -717,7 +720,7 @@ iframe{
         align-items: center;
         justify-content: center;
     }
-    .about-me p{
+    .about-me-essay{
         margin-top: 60px;
         margin-bottom: 90px;
         padding-right: 10px;
@@ -888,6 +891,13 @@ iframe{
         padding-bottom: 0px;
         
     }
+    .about-me{
+        margin-top: 100px;
+        margin-left: 550px;
+        margin-right: 550px;
+        margin-bottom: 150px;
+    }
+    
 
 }
 
