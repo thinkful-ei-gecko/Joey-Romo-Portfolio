@@ -736,6 +736,7 @@ iframe{
 @media screen and (min-width: 1080px) {
     html { 
         box-sizing: border-box; 
+        background-image: none;
         
       }
 
