@@ -115,7 +115,7 @@ a:hover{
     font-size: 10vw;
     font-family: 'Amatic SC', cursive;
     
-    animation: load-transition ease 7s;
+    animation: load-transition ease 4s;
     animation: fadeIn ease 7s;
     -webkit-animation: fadeIn ease 7s;
     -moz-animation: fadeIn ease 7s;
@@ -131,7 +131,7 @@ a:hover{
     font-size: 10vw;
     margin-bottom: 30px;
     font-family: 'Amatic SC', cursive;
-    animation: load-transition ease 7s;
+    animation: load-transition ease 4s;
     animation: fadeIn ease 7s;
     -webkit-animation: fadeIn ease 7s;
     -moz-animation: fadeIn ease 7s;
@@ -145,7 +145,7 @@ a:hover{
     font-size: 4.3vw;
     margin-left: 150px;
     font-family: 'Amatic SC', cursive;
-    animation: load-transition 17s ease;
+    animation: load-transition 10s ease;
     animation: fadeIn 17s ease ;
     -webkit-animation: fadeIn 17s ease ;
     -moz-animation: fadeIn 17s ease ;
