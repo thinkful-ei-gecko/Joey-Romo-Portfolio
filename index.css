@@ -11,6 +11,7 @@
   to {color:#B39B47;}
 
 }
+
 @keyframes fadeIn{
     0% {
       opacity:0;
@@ -84,7 +85,8 @@ nav{
     background-color: rgb(37, 34, 34);
     height:60px;
     position: fixed;
-    width: 100%
+    width: 100%;
+    z-index: 1;
 }
 nav ul {
     list-style-type: none;
@@ -107,22 +109,18 @@ a:hover{
     animation-name: hover-transition;
     animation-duration: 4s;
 }
-.homepage-info{
-    animation: fadeIn ease 4s;
-    -webkit-animation: fadeIn ease 4s;
-    -moz-animation: fadeIn ease 4s;
-    -o-animation: fadeIn ease 4s;
-    -ms-animation: fadeIn ease 4s;
-    
-}
 .homepage-info h1{
     margin-top: 5vw; 
     color:#B39B47;
     font-size: 10vw;
     font-family: 'Amatic SC', cursive;
     
-    animation-name: load-transition;
-    animation-duration: 20s;
+    animation: load-transition ease 7s;
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
     
 
     
@@ -133,8 +131,12 @@ a:hover{
     font-size: 10vw;
     margin-bottom: 30px;
     font-family: 'Amatic SC', cursive;
-    animation-name: load-transition;
-    animation-duration: 20s;
+    animation: load-transition ease 7s;
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
     
     
 }
@@ -143,8 +145,13 @@ a:hover{
     font-size: 4.3vw;
     margin-left: 150px;
     font-family: 'Amatic SC', cursive;
-    animation-name: load-transition;
-    animation-duration: 20s;
+    animation: load-transition 20s ease;
+    animation: fadeIn 20s ease ;
+    -webkit-animation: fadeIn 20s ease ;
+    -moz-animation: fadeIn 20s ease ;
+    -o-animation: fadeIn 20s ease ;
+    -ms-animation: fadeIn 20s ease ;
+    
 }
 
 .homepage-info{
@@ -432,8 +439,7 @@ iframe{
         color:#B39B47;
         font-size: 10vw;
         font-family: 'Amatic SC', cursive;
-        animation-name: load-transition;
-        animation-duration: 20s;
+        
     
         
     }
@@ -443,8 +449,7 @@ iframe{
         font-size: 10vw;
         margin-bottom: 30px;
         font-family: 'Amatic SC', cursive;
-        animation-name: load-transition;
-        animation-duration: 20s;
+       
         
         
     }
@@ -453,8 +458,7 @@ iframe{
         font-size: 4.3vw;
         margin-left: 150px;
         font-family: 'Amatic SC', cursive;
-        animation-name: load-transition;
-        animation-duration: 20s;
+       
     }
 
     .homepage-info{
