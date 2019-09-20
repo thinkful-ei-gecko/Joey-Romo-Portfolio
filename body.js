@@ -24,7 +24,7 @@ const body = function(){
     
   </div>
         <section class="body-section"id="bio">
-            <h1>BIO</h1>
+            <h2>BIO</h2>
             <div class=bio-body>
               <section class="about-me">
                 <h3>About Me</h3>
@@ -39,7 +39,7 @@ const body = function(){
                   
         </section>
         <section class="body-section" id="portfolio">
-            <h1>PORTFOLIO</h1>
+            <h2>PORTFOLIO</h2>
           
             <h3>Here's my Projects so far</h3>
 
@@ -78,7 +78,7 @@ const body = function(){
           </section>
         
         <section class="body-section" id="contact">
-            <h1>CONTACT INFO</h1>
+            <h2>CONTACT INFO</h2>
             <div class="contact-body">
               <p>If you leave me a message or email I'll get back to you within 24-48 hours</p>
               <ul id="contact-info-list">

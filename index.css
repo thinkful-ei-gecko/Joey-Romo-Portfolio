@@ -96,11 +96,11 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 50px;
+    height: 45px;
 }
 li a{
     color:#B39B47;
-    font-size:25px;
+    font-size:20px;
     text-decoration: none;
 
 
@@ -142,7 +142,7 @@ a:hover{
 }
 .homepage-info h3{
     color:#B39B47;
-    font-size: 4.3vw;
+    font-size: 5.7vw;
     margin-left: 150px;
     font-family: 'Amatic SC', cursive;
     animation: load-transition 10s ease;
@@ -192,7 +192,7 @@ a:hover{
     
     
 }
-.body-section h1{
+.body-section h2{
     margin-top: 0px;
     width: 100%;
     color:#B39B47;
@@ -336,7 +336,7 @@ iframe{
 #contact {
     width: 100%
 }
-#contact h1{
+#contact h2{
     width: 100%;
     height: 30px;
 }
@@ -455,7 +455,7 @@ iframe{
     }
     .homepage-info h3{
         color:#B39B47;
-        font-size: 4.3vw;
+        font-size: 5.3vw;
         margin-left: 150px;
         font-family: 'Amatic SC', cursive;
        
@@ -482,8 +482,8 @@ iframe{
         animation-duration: 4s;
     }
     .scroll-reminder h4{
-        margin-top: 300px;
-        font-size: 17px;
+        margin-top: 350px;
+        font-size: 15px;
         color:#B39B47;
     }
     .body-section{
@@ -495,7 +495,7 @@ iframe{
         
         
     }
-    .body-section h1{
+    .body-section h2{
         margin-top: 0px;
         width: 100%;
         color:#B39B47;
@@ -635,7 +635,7 @@ iframe{
     #contact {
         width: 100%
     }
-    #contact h1{
+    #contact h2{
         width: 100%;
         height: 30px;
     }
