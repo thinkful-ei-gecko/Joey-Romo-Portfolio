@@ -8,7 +8,7 @@ const body = function(){
         <li><a href="#bio" class="bio">BIO</a></li>
         <li><a href="#portfolio" class="portfolio">PORTFOLIO</a></li>
         <li><a href="#contact" class="contact">CONTACT</a></li>
-        <li><a href="https://github.com/joeyjr95">GITHUB</a></li>
+        <li><a href="https://github.com/joeyjr95" target="_blank">GITHUB</a></li>
       </ul>
     </nav> 
       <div class="homepage-info">
@@ -82,8 +82,8 @@ const body = function(){
             <div class="contact-body">
               <p>If you leave me a message or email I'll get back to you within 24-48 hours</p>
               <ul id="contact-info-list">
-                <li >EMAIL: <a HREF="mailto:joeyjr95@gmail.com">  joeyjr95@gmail.com</a></li>
-                <li>MOBILE: <a href="tel:+17036080673">  703-608-0673</a></li>
+                <li >EMAIL: <a HREF="mailto:joeyjr95@gmail.com" target="_blank">  joeyjr95@gmail.com</a></li>
+                <li>MOBILE: <a href="tel:+17036080673" target="_blank">  703-608-0673</a></li>
               </ul>
               <h5><a href="#firstpage">SCROLL UP</a></h5>
             </div>  
