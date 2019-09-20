@@ -383,6 +383,9 @@ iframe{
 #contact-info-list h5{
     font-size: 13px;
 }
+.linkedIn {
+    text-align: center;
+}
 
 @media screen and (min-width: 370px){
     html { 

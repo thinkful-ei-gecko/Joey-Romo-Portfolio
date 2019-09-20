@@ -84,7 +84,9 @@ const body = function(){
               <ul id="contact-info-list">
                 <li >EMAIL: <a HREF="mailto:joeyjr95@gmail.com" target="_blank">  joeyjr95@gmail.com</a></li>
                 <li>MOBILE: <a href="tel:+17036080673" target="_blank">  703-608-0673</a></li>
+                <li class="linkedIn"><a href="https://www.linkedin.com/in/joey-romo-85a00a53/">LinkedIn</li>
               </ul>
+              
               <h5><a href="#firstpage">SCROLL UP</a></h5>
             </div>  
         </section>
