@@ -54,8 +54,8 @@ const body = function(){
                     title="quiz app"
                     src="https://thinkful-ei-gecko.github.io/kevin-joey-quiz-app/">
                 </iframe>
-                <h5><a href="https://thinkful-ei-gecko.github.io/kevin-joey-quiz-app/">click here to view project</a></h5>
-                <h5><a href="https://github.com/thinkful-ei-gecko/kevin-joey-quiz-app">click here to view repo</a></h5>
+                <h5><a href="https://thinkful-ei-gecko.github.io/kevin-joey-quiz-app/" target="_blank">click here to view project</a></h5>
+                <h5><a href="https://github.com/thinkful-ei-gecko/kevin-joey-quiz-app" target="_blank">click here to view repo</a></h5>
                </div>
             </section>
 
@@ -70,8 +70,8 @@ const body = function(){
                    title="bookmark app"
                    src="https://thinkful-ei-gecko.github.io/Joey-Bookmark-App/">
                </iframe>
-               <h5><a href="https://thinkful-ei-gecko.github.io/Joey-Bookmark-App/">click here to view project</a></h5>
-               <h5><a href="https://github.com/thinkful-ei-gecko/Joey-Bookmark-App">click here to view repo</a></h5>
+               <h5><a href="https://thinkful-ei-gecko.github.io/Joey-Bookmark-App/" target="_blank">click here to view project</a></h5>
+               <h5><a href="https://github.com/thinkful-ei-gecko/Joey-Bookmark-App" target="_blank">click here to view repo</a></h5>
               </div>
            </section>
           </div>
