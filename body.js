@@ -41,7 +41,7 @@ const body = function(){
         <section class="body-section" id="portfolio">
             <h2>PORTFOLIO</h2>
           
-            <h3>Here's my Projects so far</h3>
+            <h3>Here are my Projects so far</h3>
 
             <div class="portfolio-body">
              <section class="quiz-app-main"> 
@@ -84,7 +84,7 @@ const body = function(){
               <ul id="contact-info-list">
                 <li >EMAIL: <a HREF="mailto:joeyjr95@gmail.com" target="_blank">  joeyjr95@gmail.com</a></li>
                 <li>MOBILE: <a href="tel:+17036080673" target="_blank">  703-608-0673</a></li>
-                <li class="linkedIn"><a href="https://www.linkedin.com/in/joey-romo-85a00a53/ target="_blank"">LinkedIn</li>
+                <li class="linkedIn"><a href="https://www.linkedin.com/in/joey-romo-85a00a53/" target="_blank">LinkedIn</li>
               </ul>
               
               <h5><a href="#firstpage">SCROLL UP</a></h5>
